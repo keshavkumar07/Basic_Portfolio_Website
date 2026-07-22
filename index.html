@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Keshav Kumar | AI & Machine Learning Engineer</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Ambient Glowing Background Elements -->
+    <div class="ambient-glow glow-blue"></div>
+    <div class="ambient-glow glow-purple"></div>
+
+    <!-- Floating Navigation Bar -->
+    <header class="navbar-wrapper">
+        <nav class="navbar">
+            <a href="#" class="logo">Keshav<span>.ai</span></a>
+            <div class="nav-links" id="navLinks">
+                <a href="#about" class="nav-item">About</a>
+                <a href="#ventures" class="nav-item">Ventures</a>
+                <a href="#skills" class="nav-item">Skills</a>
+                <a href="#education" class="nav-item">Education</a>
+            </div>
+            <a href="#contact" class="btn-contact-nav">Contact Me</a>
+            <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle Menu">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero-section" id="hero">
+            <div class="hero-text">
+                <div class="status-badge">
+                    <span class="status-dot"></span> Available for AI & Software Roles
+                </div>
+                <h1 class="hero-title">
+                    Building <span class="gradient-text">Intelligent Systems</span> & Practical AI Solutions
+                </h1>
+                <p class="hero-description">
+                    I'm <strong>Keshav Kumar</strong>, a final-year B.Tech student in Artificial Intelligence & Machine Learning at JB Institute of Technology, Dehradun. I specialize in Python development, computer vision systems, and predictive machine learning models.
+                </p>
+                
+                <div class="hero-actions">
+                    <a href="#ventures" class="btn-primary">
+                        <i class="fa-solid fa-rocket"></i> Explore Ventures
+                    </a>
+                    <a href="mailto:keshavkumar64581@gmail.com" class="btn-secondary">
+                        <i class="fa-regular fa-envelope"></i> Get in Touch
+                    </a>
+                </div>
+
+                <div class="social-links">
+                    <a href="https://github.com/keshavkumar07" target="_blank" class="social-pill">
+                        <i class="fa-brands fa-github"></i> GitHub
+                    </a>
+                    <a href="https://www.linkedin.com/in/keshav-k-1401642a9/" target="_blank" class="social-pill">
+                        <i class="fa-brands fa-linkedin"></i> LinkedIn
+                    </a>
+                    <a href="https://www.instagram.com/__its.keshav__/" target="_blank" class="social-pill">
+                        <i class="fa-brands fa-instagram"></i> Instagram
+                    </a>
+                </div>
+            </div>
+
+            <div class="hero-image-container">
+                <div class="image-frame">
+                    <img src="images/Keshav_Portfolio.png" alt="Keshav Kumar Portrait" class="profile-photo">
+                    <div class="image-badge">
+                        <i class="fa-solid fa-code"></i> Python & ML Specialist
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Key Metrics Strip -->
+        <section class="stats-strip">
+            <div class="stat-box">
+                <span class="stat-number">B.Tech</span>
+                <span class="stat-label">AI & ML Specialization</span>
+            </div>
+            <div class="stat-box">
+                <span class="stat-number">Rank 1</span>
+                <span class="stat-label">Academic Excellence Award</span>
+            </div>
+            <div class="stat-box">
+                <span class="stat-number">3+</span>
+                <span class="stat-label">End-to-End AI Ventures</span>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="section-container" id="about">
+            <h2 class="section-heading">About <span>Me</span></h2>
+            <div class="about-card glass-card">
+                <p>
+                    I am passionate about applying classroom machine learning algorithms to real-world software applications. My technical toolkit includes Python, OpenCV, Flask, SQL, and Scikit-learn. Whether it's automating attendance through face detection or engineering real-estate price prediction models, I focus on building intuitive and scalable technical solutions.
+                </p>
+            </div>
+        </section>
+
+        <!-- Ventures / Projects Section (Inspired by anantkumar.site/#ventures) -->
+        <section class="section-container" id="ventures">
+            <div class="section-header">
+                <h2 class="section-heading">Featured <span>Ventures</span></h2>
+                <p class="section-subheading">Key machine learning systems and web applications I've developed</p>
+            </div>
+
+            <div class="ventures-grid">
+                <!-- Venture 1 -->
+                <div class="venture-card glass-card">
+                    <div class="venture-top">
+                        <span class="venture-tag tag-ai">AI & Computer Vision</span>
+                        <a href="https://github.com/keshavkumar07" target="_blank" class="venture-ext-link">
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                        </a>
+                    </div>
+                    <h3 class="venture-title">Face Recognition Attendance System</h3>
+                    <p class="venture-description">
+                        An automated, biometric attendance platform utilizing real-time face detection algorithms. Captures camera streams, extracts facial encodings, and logs attendance records directly into SQLite databases.
+                    </p>
+                    <div class="tech-stack">
+                        <span>Python</span>
+                        <span>OpenCV</span>
+                        <span>Face Recognition</span>
+                        <span>Flask</span>
+                        <span>SQLite</span>
+                    </div>
+                    <div class="venture-footer">
+                        <a href="https://github.com/keshavkumar07" target="_blank" class="btn-card-action">
+                            <i class="fa-brands fa-github"></i> View Source Code
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Venture 2 -->
+                <div class="venture-card glass-card">
+                    <div class="venture-top">
+                        <span class="venture-tag tag-ml">Machine Learning</span>
+                        <a href="https://github.com/keshavkumar07/property-price-prediction" target="_blank" class="venture-ext-link">
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                        </a>
+                    </div>
+                    <h3 class="venture-title">Property Price Prediction System</h3>
+                    <p class="venture-description">
+                        End-to-end real estate valuation engine trained using a Random Forest Regressor model. Evaluated with regression metrics (MAE, MSE, RMSE) and deployed via an interactive web portal.
+                    </p>
+                    <div class="tech-stack">
+                        <span>Python</span>
+                        <span>Scikit-learn</span>
+                        <span>Pandas</span>
+                        <span>NumPy</span>
+                        <span>Flask</span>
+                    </div>
+                    <div class="venture-footer">
+                        <a href="https://github.com/keshavkumar07/property-price-prediction" target="_blank" class="btn-card-action">
+                            <i class="fa-brands fa-github"></i> View Repository
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Venture 3 -->
+                <div class="venture-card glass-card">
+                    <div class="venture-top">
+                        <span class="venture-tag tag-web">Web Application</span>
+                        <a href="https://portfolio-animation.onrender.com" target="_blank" class="venture-ext-link">
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                        </a>
+                    </div>
+                    <h3 class="venture-title">Personal Portfolio Platform</h3>
+                    <p class="venture-description">
+                        A modern, high-performance portfolio platform showcasing technical projects, skill metrics, and achievements with sleek glassmorphism animations and mobile responsiveness.
+                    </p>
+                    <div class="tech-stack">
+                        <span>HTML5</span>
+                        <span>CSS3</span>
+                        <span>JavaScript</span>
+                        <span>Render</span>
+                    </div>
+                    <div class="venture-footer">
+                        <a href="https://portfolio-animation.onrender.com" target="_blank" class="btn-card-action">
+                            <i class="fa-solid fa-globe"></i> Live Website
+                        </a>
+                        <a href="https://github.com/keshavkumar07/Portfolio-Animation" target="_blank" class="btn-card-action btn-secondary-card">
+                            <i class="fa-brands fa-github"></i> GitHub
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Technical Skills Section -->
+        <section class="section-container" id="skills">
+            <h2 class="section-heading">Technical <span>Skillset</span></h2>
+            <div class="skills-grid">
+                <div class="skill-card glass-card">
+                    <h3><i class="fa-solid fa-brain"></i> AI & Machine Learning</h3>
+                    <div class="skill-pills">
+                        <span>Python</span>
+                        <span>OpenCV</span>
+                        <span>Scikit-learn</span>
+                        <span>Pandas</span>
+                        <span>NumPy</span>
+                        <span>NLP</span>
+                    </div>
+                </div>
+
+                <div class="skill-card glass-card">
+                    <h3><i class="fa-solid fa-code"></i> Software & Web</h3>
+                    <div class="skill-pills">
+                        <span>C / C++</span>
+                        <span>Flask API</span>
+                        <span>SQL / MySQL</span>
+                        <span>HTML5</span>
+                        <span>CSS3</span>
+                        <span>JavaScript</span>
+                    </div>
+                </div>
+
+                <div class="skill-card glass-card">
+                    <h3><i class="fa-solid fa-toolbox"></i> Tools & Environment</h3>
+                    <div class="skill-pills">
+                        <span>Git & GitHub</span>
+                        <span>VS Code</span>
+                        <span>Jupyter Notebook</span>
+                        <span>SQLite</span>
+                        <span>Render</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education & Achievements -->
+        <section class="section-container" id="education">
+            <h2 class="section-heading">Education & <span>Achievements</span></h2>
+            <div class="timeline">
+                <div class="timeline-card glass-card">
+                    <span class="timeline-year">2022 - 2026</span>
+                    <h3>B.Tech in Artificial Intelligence & Machine Learning</h3>
+                    <h4>JB Institute of Technology, Dehradun (Uttarakhand Technical University)</h4>
+                    <p>Current CGPA: 7.5 | Awarded 1st Rank Academic Excellence Award in 2nd Year.</p>
+                </div>
+
+                <div class="timeline-card glass-card">
+                    <span class="timeline-year">2024</span>
+                    <h3>Winner - College Cricket Match Tournament</h3>
+                    <h4>JB Institute of Technology Sports Day</h4>
+                    <p>Participated and led collegiate team events during the annual sports day celebration.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="section-container" id="contact">
+            <div class="contact-box glass-card">
+                <h2>Let's Build Something <span>Innovative</span></h2>
+                <p>Feel free to reach out for internship opportunities, project collaborations, or tech inquiries.</p>
+                
+                <div class="contact-pills-row">
+                    <a href="mailto:keshavkumar64581@gmail.com" class="contact-pill">
+                        <i class="fa-solid fa-envelope"></i> keshavkumar64581@gmail.com
+                    </a>
+                    <a href="tel:+917903300370" class="contact-pill">
+                        <i class="fa-solid fa-phone"></i> +91 7903300370
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>© 2026 Keshav Kumar. Designed with modern web standards & AI precision.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
